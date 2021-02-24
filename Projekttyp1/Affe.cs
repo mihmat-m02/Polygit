@@ -6,12 +6,21 @@ namespace Projekttyp1
 {
     class Affe:Tiere
     {
-        protected override string Name { get; set; }
+        private string name;
+        protected override string Name { get { return name; }
+            set {
+                if (string.IsNullOrEmpty(value))
+                {
+                    throw new TierException("Die Zeile ist leer");
+                }
+                name = value;
+            } }
         protected override int Beine { get { return 2; } set { } }
 
         protected Affe(string Name) : base(Name)
         {
             this.Name = Name;
         }
+
     }
 }
