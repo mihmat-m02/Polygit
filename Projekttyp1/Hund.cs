@@ -7,7 +7,7 @@ namespace Projekttyp1
     class Hund : Tiere
     {
         protected override string Name { get; set; }
-        protected override int Beine { get { return 4; } set { } }
+        protected override int Beine { get { return 4; } }
 
         protected Hund(string Name):base(Name)
         {

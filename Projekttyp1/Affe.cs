@@ -15,7 +15,7 @@ namespace Projekttyp1
                 }
                 name = value;
             } }
-        protected override int Beine { get { return 2; } set { } }
+        protected override int Beine { get { return 2; }}
 
         protected Affe(string Name) : base(Name)
         {

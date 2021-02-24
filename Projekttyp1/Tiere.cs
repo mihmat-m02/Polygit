@@ -7,7 +7,7 @@ namespace Projekttyp1
     abstract class Tiere
     {
         protected abstract string Name { get; set; }
-        protected virtual int Beine { get { return 4; } set { } }
+        protected virtual int Beine { get { return 4; }}
 
         protected Tiere(string name)
         {
