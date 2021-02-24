@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Projekttyp1
 {
-    class Hund : Tiere
+    public class Hund : Tiere
     {
-        protected override string Name { get; set; }
-        protected override int Beine { get { return 4; } }
+        public override string Name { get; set; }
+        public override int Beine { get { return 4; } }
 
-        protected Hund(string Name):base(Name)
+        public Hund(string Name):base(Name)
         {
             this.Name = Name;
         }

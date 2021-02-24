@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Projekttyp1
 {
-    abstract class Tiere
+    public abstract class Tiere
     {
-        protected abstract string Name { get; set; }
-        protected virtual int Beine { get { return 4; }}
+        public abstract string Name { get; set; }
+        public virtual int Beine { get { return 4; }}
 
-        protected Tiere(string name)
+        public Tiere(string name)
         {
             Name = name;
         }

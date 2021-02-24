@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{EE6D51F0-02EB-4340-A725-1C803CCB73C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{EE6D51F0-02EB-4340-A725-1C803CCB73C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekttyp1", "Projekttyp1\Projekttyp1.csproj", "{67F99991-874F-41C7-9270-52340FBD8187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projekttyp1", "Projekttyp1\Projekttyp1.csproj", "{67F99991-874F-41C7-9270-52340FBD8187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TierTest", "TierTest\TierTest.csproj", "{BB1ABD20-79AB-4547-989B-E06DF66A20EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{67F99991-874F-41C7-9270-52340FBD8187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F99991-874F-41C7-9270-52340FBD8187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F99991-874F-41C7-9270-52340FBD8187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1ABD20-79AB-4547-989B-E06DF66A20EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1ABD20-79AB-4547-989B-E06DF66A20EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1ABD20-79AB-4547-989B-E06DF66A20EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1ABD20-79AB-4547-989B-E06DF66A20EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

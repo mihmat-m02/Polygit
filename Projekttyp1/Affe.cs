@@ -4,10 +4,10 @@ using System.Text;
 
 namespace Projekttyp1
 {
-    class Affe:Tiere
+    public class Affe:Tiere
     {
         private string name;
-        protected override string Name { get { return name; }
+        public override string Name { get { return name; }
             set {
                 if (string.IsNullOrEmpty(value))
                 {
@@ -15,9 +15,9 @@ namespace Projekttyp1
                 }
                 name = value;
             } }
-        protected override int Beine { get { return 2; }}
+        public override int Beine { get { return 2; }}
 
-        protected Affe(string Name) : base(Name)
+        public Affe(string Name) : base(Name)
         {
             this.Name = Name;
         }
