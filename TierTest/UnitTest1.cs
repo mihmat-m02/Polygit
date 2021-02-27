@@ -24,7 +24,29 @@ namespace TierTest
             var hund = new Hund("Marko");
             var affenn = new Affe("Marko");
             Assert.AreEqual(4, hund.Beine);
-            Assert.AreEqual(2, affenn.Name);
+            Assert.AreEqual(2, affenn.Beine);
         }
+        [TestMethod]
+        [ExpectedException(typeof(TierException))]
+        public void Exceptionn()
+        {
+            var affenn = new Affe("");
+            
+        }
+
+        [TestMethod]
+        public void istrueTEst()
+        {
+            var hund = new Hund("Marko");
+            Assert.IsTrue(hund.Name == "Marko");
+        }
+        [TestMethod]
+        public void IsInstanceOfTypeTEst()
+        {
+            var hund = new Hund("Marko");
+            var affenn = new Affe("Marko");
+            Assert.IsInstanceOfType(hund, typeof(Hund));
+        }
+
     }
 }

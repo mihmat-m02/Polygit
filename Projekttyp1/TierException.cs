@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Projekttyp1
 {
-    class TierException : Exception
+    public class TierException : Exception
     {
         public TierException(string message):base(message)
         {
